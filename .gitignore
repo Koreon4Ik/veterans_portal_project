@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Caches
+.npm/
+.yarn/
+.cache/
+.parcel-cache/
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Thumbnails
+.Trashes
+._*
+
+# Linux
+*.swp
+
+# npm
+.npm
+npm-debug.log
+
+# yarn
+.yarn
+yarn-error.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Temp files
+*.tmp
+*.bak
+
+# Backend build outputs
+backend/dist/ # If you compile server-side code
+
+# Frontend build outputs
+frontend/build/
+frontend/.env.local # Important for client-side .env files

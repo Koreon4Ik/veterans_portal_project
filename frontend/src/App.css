@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* frontend/src/App.css */
+
+/* Базові скидання стилів для кращої сумісності */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Легкий фон */
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34; /* Темний фон для хедера */
+  padding: 20px;
+  color: white;
+  display: flex; /* Для вирівнювання елементів */
+  justify-content: space-between; /* Рознести елементи по краях */
+  align-items: center; /* Вирівняти по центру вертикально */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тінь для хедера */
+}
+
+.App-header h1 {
+  margin: 0; /* Прибираємо стандартні відступи */
+  font-size: 2em;
+}
+
+.App-header nav ul {
+  list-style: none; /* Прибираємо маркери списку */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Розміщуємо елементи меню в рядок */
+  gap: 20px; /* Відстань між елементами меню */
+}
+
+.App-header nav li a {
+  color: white;
+  text-decoration: none; /* Прибираємо підкреслення посилань */
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s ease; /* Плавний перехід кольору при наведенні */
+}
+
+.App-header nav li a:hover {
+  color: #61dafb; /* Колір при наведенні */
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto; /* Центруємо основний контент */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-bottom: 1px solid #eee; /* Роздільник між секціями */
+}
+
+section:last-child {
+  border-bottom: none; /* Останню секцію не розділяємо */
+}
+
+section h2 {
+  color: #0056b3; /* Колір заголовків секцій */
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
